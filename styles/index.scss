@@ -27,7 +27,6 @@ body{
         margin: 30px;
         padding: 30px;
         justify-content: center;
-        width: 50%;
         width: 500px;
 
         .secA-textB{
@@ -52,7 +51,6 @@ body{
         margin: 30px;
         padding: 30px;
         display: inline;
-        width: 50%;
         width: 500px;
 
 
@@ -66,20 +64,22 @@ body{
 
 
 .secA-btn{
-            margin-top: 40px;
-            font-family: "Aleo";
-            color: #FFFFFF;
-            font-size: medium;
-            background-color: #5474FD;
-            border: none;
-            width: 228px;
-            height: 63px;
 
-            &:hover {
-                background-color: #999999;
-                color: #5474FD;
-            }
+        margin-top: 40px;
+        font-family: "Aleo";
+        color: #FFFFFF;
+        font-size: medium;
+        background-color: #5474FD;
+        border: none;
+        width: 228px;
+        height: 63px;
+
+        &:hover {
+            background-color: #999999;
+            color: #5474FD;
         }
+
+}
 
 
 .sectionB{
@@ -109,17 +109,49 @@ body{
 .sectionC{
     height: 700px;
     background-image:url(../images/section-2bg.svg);
-   
+    .secC{
+        transform: translate(150px, 280px);
 
-    .secC-box{
+    }
+   
+}
+
+ .box{
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(4px);
         width: 450px;
-        height: 300px;
-        transform: translate(100px, 100px);
+        height: 350px;
+        
         padding: 20px;
 
+        .col{
+            color: #E8E8E8;
+            font-weight: 300;
+            
+        }
+
+        .secC-text{
+            font-size: 20px;
+            
+        }
+        
+        .text-reg{
+            font-size: 16px;
+            
+            
+        }
+
+}
+
+
+.sectionD{
+    height: 700px;
+    background-image:url(../images/section-3bg.svg);
+    .secD{
+        transform: translate(650px, 280px);
+
     }
+   
 }
 
 

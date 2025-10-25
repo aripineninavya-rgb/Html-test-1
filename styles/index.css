@@ -115,7 +115,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
   width: 500px;
 }
 .sectionA .secA-text .secA-textB {
@@ -131,7 +130,6 @@ body {
   margin: 30px;
   padding: 30px;
   display: inline;
-  width: 50%;
   width: 500px;
 }
 .sectionA .secA-img .secA-imgB {
@@ -187,12 +185,34 @@ body {
   height: 700px;
   background-image: url(../images/section-2bg.svg);
 }
-.sectionC .secC-box {
+.sectionC .secC {
+  -webkit-transform: translate(150px, 280px);
+          transform: translate(150px, 280px);
+}
+
+.box {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   width: 450px;
-  height: 300px;
-  -webkit-transform: translate(100px, 100px);
-          transform: translate(100px, 100px);
+  height: 350px;
   padding: 20px;
+}
+.box .col {
+  color: #E8E8E8;
+  font-weight: 300;
+}
+.box .secC-text {
+  font-size: 20px;
+}
+.box .text-reg {
+  font-size: 16px;
+}
+
+.sectionD {
+  height: 700px;
+  background-image: url(../images/section-3bg.svg);
+}
+.sectionD .secD {
+  -webkit-transform: translate(650px, 280px);
+          transform: translate(650px, 280px);
 }
