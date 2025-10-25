@@ -6,6 +6,10 @@
   -ms-flex-line-pack: center;
       align-content: center;
 }
+.header .hed {
+  letter-spacing: 9px;
+  line-height: 2px;
+}
 .header .text {
   letter-spacing: 6px;
 }
@@ -87,6 +91,22 @@
   font-family: "Aleo";
   color: #FFFFFF;
   font-size: small;
+}
+
+.footer {
+  padding-bottom: 30px;
+  background-color: #232323;
+  justify-items: center;
+  -ms-flex-line-pack: end;
+      align-content: end;
+  height: 270px;
+}
+.footer .ftr-text {
+  letter-spacing: 3px;
+}
+.footer .ftr-hed {
+  letter-spacing: 8px;
+  line-height: 2px;
 }
 
 body {
