@@ -14,10 +14,19 @@
         width: 100%;
         justify-content: space-around;
         align-items: center;
-        .nav-items{
-            text-decoration: none;
-            
-        }
 
     }
+}
+
+.nav-items{
+    text-decoration: none;
+    font-family: "Aleo";
+    color: #FFFFFF;
+    font-size: small;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
 }

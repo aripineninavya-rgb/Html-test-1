@@ -19,8 +19,20 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.header .navbar .nav-items {
+
+.nav-items {
   text-decoration: none;
+  font-family: "Aleo";
+  color: #FFFFFF;
+  font-size: small;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
 }
 
 body {
