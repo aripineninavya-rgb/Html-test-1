@@ -15,8 +15,15 @@
         line-height: 2px;
 
     }
-    .icons{
-        letter-spacing: 30px;
 
+
+    .icons{
+        font-size: 20px;
+        letter-spacing: 20px;
+        line-height: 50px;
+
+        .color{
+            color: #5474FD;
+        }
     }
 }
