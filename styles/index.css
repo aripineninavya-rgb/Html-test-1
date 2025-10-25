@@ -157,7 +157,6 @@ body {
   justify-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  height: 330px;
   background-color: #333333;
 }
 .sectionB .arrows {
@@ -178,5 +177,5 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 200px;
+  gap: 150px;
 }
