@@ -19,6 +19,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.header .navbar .nav-items {
+  text-decoration: none;
+}
 
 body {
   width: 100%;
