@@ -2,4 +2,20 @@
     font-family: "Josefin Sans";
     color: #FFFFFF;
     background-image: url(../images/header-bg.svg);
+    justify-items: center;
+    position: relative;
+
+    .navbar{
+
+        display: flex;
+        position: absolute;
+        border-radius: 2px solid #5474FD;
+        background-color: #5474FD;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+    }
 }
