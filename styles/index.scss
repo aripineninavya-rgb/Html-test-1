@@ -43,21 +43,7 @@ body{
             font-size: 40px;
         }
 
-        .secA-btn{
-            margin-top: 40px;
-            font-family: "Aleo";
-            color: #FFFFFF;
-            font-size: medium;
-            background-color: #5474FD;
-            border: none;
-            width: 228px;
-            height: 63px;
-
-            &:hover {
-                background-color: #999999;
-                color: #5474FD;
-            }
-        }
+        
 
     }
 
@@ -77,6 +63,23 @@ body{
 
     }
 }
+
+
+.secA-btn{
+            margin-top: 40px;
+            font-family: "Aleo";
+            color: #FFFFFF;
+            font-size: medium;
+            background-color: #5474FD;
+            border: none;
+            width: 228px;
+            height: 63px;
+
+            &:hover {
+                background-color: #999999;
+                color: #5474FD;
+            }
+        }
 
 
 .sectionB{
@@ -101,6 +104,22 @@ body{
         gap: 250px;
     }
     
+}
+
+.sectionC{
+    height: 700px;
+    background-image:url(../images/section-2bg.svg);
+   
+
+    .secC-box{
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(4px);
+        width: 450px;
+        height: 300px;
+        transform: translate(100px, 100px);
+        padding: 20px;
+
+    }
 }
 
 
