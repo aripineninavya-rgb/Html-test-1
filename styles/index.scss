@@ -158,7 +158,6 @@ body{
 .sectionE{
 
     padding: 30px;
-
     height: 600px;
     justify-items: center;
     background-image: url(../images/section-4bg.svg);
@@ -167,6 +166,16 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    .secE-maintext{
+        width: 668px;
+
+    }
+
+
+    .secE-text{
+        display: flex;
     }
 }
 
