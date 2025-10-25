@@ -7,7 +7,7 @@
       align-content: center;
 }
 .header .text {
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
 .header .searchbar {
   margin-top: 40px;
@@ -143,4 +143,19 @@ body {
 .sectionA .secA-img .secA-imgB {
   -webkit-transform: translate(40px);
           transform: translate(40px);
+}
+
+.sectionB {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 330px;
+  background-color: #333333;
+}
+.sectionB .secB-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 270px;
 }

@@ -74,5 +74,18 @@ body{
 }
 
 
+.sectionB{
+    justify-items: center;
+    align-items: center;
+   height: 330px;
+    background-color: #333333;
+
+    .secB-img{
+        display: flex;
+        gap: 270px;
+    }
+}
+
+
 
 
