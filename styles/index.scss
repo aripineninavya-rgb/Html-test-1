@@ -52,6 +52,11 @@ body{
             border: none;
             width: 228px;
             height: 63px;
+
+            &:hover {
+                background-color: #999999;
+                color: #5474FD;
+            }
         }
 
     }
@@ -76,13 +81,16 @@ body{
 
 .sectionB{
     justify-items: center;
-    align-items: center;
-   height: 330px;
+    align-content: center;
+    height: 330px;
     background-color: #333333;
 
     .secB-img{
+        font-family: "Aleo";
+        font-size: 36px;
+        font-weight: normal;
         display: flex;
-        gap: 270px;
+        gap: 200px;
     }
 }
 

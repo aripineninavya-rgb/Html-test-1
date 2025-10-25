@@ -43,6 +43,11 @@
             justify-self: end;
             margin: 1px;
             border: #FFFFFF;
+
+            &:hover {
+                background-color: #999999;
+                color: #5474FD;
+            }
         }
     }
 
