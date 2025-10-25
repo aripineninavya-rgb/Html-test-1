@@ -163,12 +163,14 @@ body{
     background-image: url(../images/section-4bg.svg);
 
     .secE{
+        height: 287px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
     .secE-maintext{
+        background-color: #333333;
         width: 668px;
 
     }

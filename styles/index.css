@@ -248,6 +248,7 @@ body {
   background-image: url(../images/section-4bg.svg);
 }
 .sectionE .secE {
+  height: 287px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -259,6 +260,7 @@ body {
           align-items: center;
 }
 .sectionE .secE-maintext {
+  background-color: #333333;
   width: 668px;
 }
 .sectionE .secE-text {
