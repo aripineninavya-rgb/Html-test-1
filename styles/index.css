@@ -160,6 +160,17 @@ body {
   height: 330px;
   background-color: #333333;
 }
+.sectionB .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .sectionB .secB-img {
   font-family: "Aleo";
   font-size: 36px;

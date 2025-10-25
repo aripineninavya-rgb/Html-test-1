@@ -85,6 +85,12 @@ body{
     height: 330px;
     background-color: #333333;
 
+    .arrows{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .secB-img{
         font-family: "Aleo";
         font-size: 36px;
