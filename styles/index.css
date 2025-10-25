@@ -186,8 +186,8 @@ body {
   background-image: url(../images/section-2bg.svg);
 }
 .sectionC .secC {
-  -webkit-transform: translate(150px, 280px);
-          transform: translate(150px, 280px);
+  -webkit-transform: translate(150px, 250px);
+          transform: translate(150px, 250px);
 }
 
 .box {
@@ -213,6 +213,6 @@ body {
   background-image: url(../images/section-3bg.svg);
 }
 .sectionD .secD {
-  -webkit-transform: translate(650px, 280px);
-          transform: translate(650px, 280px);
+  -webkit-transform: translate(650px, 250px);
+          transform: translate(650px, 250px);
 }
