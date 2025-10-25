@@ -172,10 +172,11 @@ body {
 }
 .sectionB .secB-img {
   font-family: "Aleo";
-  font-size: 36px;
+  font-size: 25px;
   font-weight: normal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 150px;
+  justify-items: center;
+  gap: 250px;
 }
