@@ -15,7 +15,7 @@ body{
 .sectionA{
     
     display: flex;
-    height: 650px;
+    min-height: 650px;
     background-image: url(../images/section-1bg.svg);
     align-items: center;
     justify-content: center; 
@@ -42,7 +42,7 @@ body{
         margin: 30px;
         padding: 30px;
         display: inline;
-        width: 500px;
+        max-width: 500px;
 
 
         .secA-imgB{
@@ -74,6 +74,8 @@ body{
         &:hover {
             background-color: #999999;
             color: #5474FD;
+            outline: 2px solid #5474FD;
+            outline-offset: 2px;
         }
 
 }
@@ -82,7 +84,7 @@ body{
 .sectionB{
     justify-items: center;
     align-content: center;
-    height: 300px;
+    min-height: 300px;
     
     background-color: #333333;
 
@@ -104,10 +106,14 @@ body{
 }
 
 .sectionC{
-    height: 700px;
+    min-height: 700px;
     background-image:url(../images/section-2bg.svg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
     .secC{
-        transform: translate(150px, 250px);
+        max-width: 450px;
 
     }
    
@@ -116,8 +122,8 @@ body{
  .box{
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(4px);
-        width: 450px;
-        height: 350px;
+        max-width: 450px;
+        min-height: 350px;
         
         padding: 20px;
 
@@ -140,16 +146,22 @@ body{
 
 }
 
+.sectionD {
+    display: flex;                  // use flex for horizontal layout
+    justify-content: flex-end;      // move content to the right
+    align-items: center;            // vertically center content
+    padding: 50px;                  // spacing inside section
+    min-height: 650px;              // allow flexibility on smaller screens
+    background-image: url(../images/section-3bg.svg);
+    background-size: cover;
+    background-position: center;
 
-.sectionD{
-    height: 700px;
-    background-image:url(../images/section-3bg.svg);
-    .secD{
-        transform: translate(900px, 250px);
-
+    .secD {
+        max-width:  450px;
+        margin-bottom: 20px;
     }
-   
 }
+
 
 
 .sectionE{
@@ -181,6 +193,28 @@ body{
     }
     
 }
+
+.color{
+            color: white;
+
+            &:hover {
+                color: #5474FD;
+
+        }}
+
+
+
+@media (max-width: 480px) {
+    .sectionA, .sectionB, .sectionC, .sectionD, .sectionE {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secA-btn, .buttonA {
+        width: 100%;
+    }
+}
+
 
 
 
